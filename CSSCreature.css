@@ -1,0 +1,499 @@
+
+
+.star1{
+    margin: auto;
+    left:-350px;
+    top: 150px;
+    width: 5px;
+    height: 5px;
+    background-color: white;
+    position: relative;
+    z-index: 1;
+    animation-name: spin;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+   
+}
+
+.star2{
+    margin: auto;
+    top: 50px;
+    left:-130px;
+    width: 2px;
+    height: 2px;
+    background-color: white;
+    position: relative;
+    z-index: 0;
+    animation-name: spin;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+}
+.star3{
+    margin: auto;
+    left:30px;
+    top:250px;
+    width: 8px;
+    height: 8px;
+    background-color: white;
+    position: relative;
+    z-index: 0;
+    animation-name: spin;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+}
+.star4{
+    margin: auto;
+    left:500px;
+    top: 300px;
+    width: 4px;
+    height: 4px;
+    background-color: white;
+    position: relative;
+    z-index: 0;
+    animation-name: spin;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+}
+.star5{
+    margin: auto;
+    left:100px;
+    top:20px;
+    width: 6px;
+    height: 6px;
+    background-color: white;
+    position: relative;
+    z-index: 0;
+    animation-name: spin;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+}
+.star6{
+    margin: auto;
+    left:-100px;
+    top: 300px;
+    width: 3px;
+    height: 3px;
+    background-color: white;
+    position: relative;
+    z-index: 0;
+    animation-name: spin;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+}
+.star7{
+    margin: auto;
+    left:100px;
+    top: 400px;
+    width: 9px;
+    height: 9px;
+    background-color: white;
+    position: relative;
+    z-index: 0;
+    animation-name: spin;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+    box-shadow: whitesmoke;
+}
+.star8{
+    margin: auto;
+    left:400px;
+    top: 200px;
+    width: 4px;
+    height: 4px;
+    background-color: white;
+    position: relative;
+    z-index: 0;
+    animation-name: spin;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+}
+.star9{
+    margin: auto;
+    left:30px;
+    width: 2px;
+    height: 2px;
+    background-color: white;
+    position: relative;
+    z-index: 0;
+    animation-name: spin;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+}
+.star10{
+    margin: auto;
+    left:500px;
+    top: 100px;
+    width: 7px;
+    height: 7px;
+    background-color: white;
+    position: relative;
+    z-index: 0;
+    animation-name: spin;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+}
+.star11{
+    left:200px;
+    margin: auto;
+    top: 400px;
+    width: 4px;
+    height: 4px;
+    background-color: white;
+    position: relative;
+    z-index: 0;
+    animation-name: spin;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+}
+
+
+.creature{
+    margin: auto;
+    position: absolute;
+    left: 50%;
+    right: 50%;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-play-state: inherit;
+    
+    animation-name: bounce;
+    }
+ .movement{
+    animation-name: movement;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+}
+#body{
+    height: 80px;
+    width: 110px;
+    margin: auto;
+    background-color: #65FF00;
+    position: relative;
+    z-index: 1;
+}
+#left-eye{
+    height: 10px;
+    width: 10px;
+    position: relative;
+    z-index: 1;
+    left:30px;
+    top: 30px;
+    background-color: black;
+}
+#right-eye{
+    height: 10px;
+    width: 10px;
+    position: relative;
+    left: 70px;
+    top: 20px;
+    z-index: 1;
+    background-color: black;
+}
+#mouth{
+    height: 10px;
+    width: 50px;
+    background-color: black;
+    z-index: 1;
+    position: relative;
+    left: 30px;
+    top: 40px;
+}
+#middle-block{
+    height: 10px;
+    width: 10px;
+    position: relative;
+    left: 50px;
+    top: 40px;
+    z-index: 1;
+    background-color: black;
+}
+#top-left1{
+    height: 40px;
+    width: 10px;
+    position: relative;
+    z-index: 1;
+    top: -40px;
+    background-color: black;
+}
+#top-right1{
+    height: 40px;
+    width: 10px;
+    position: relative;
+    z-index: 1;
+    top: -80px;
+    left: 100px;
+    background-color: black;
+}
+#top-left2{
+    height: 30px;
+    width: 10px;
+    position: relative;
+    z-index: 1;
+    top: -120px;
+    left: 10px;
+    background-color: black;
+}
+#top-right2{
+    height: 30px;
+    width: 10px;
+    position: relative;
+    z-index: 1;
+    top: -150px;
+    left: 90px;
+    background-color: black;
+}
+#top-bar1{
+    height: 10px;
+    width: 50px;
+    background-color: black;
+    z-index: 1;
+    position: relative;
+    left: 30px;
+    top: -180px;
+}
+#top-bar2{
+    height: 10px;
+    width: 30px;
+    background-color: black;
+    z-index: 1;
+    position: relative;
+    left: 40px;
+    top: -180px;
+}
+#top-leftblock{
+    height: 10px;
+    width: 10px;
+    position: relative;
+    left: 20px;
+    top: -190px;
+    z-index: 1;
+    background-color: black;
+}
+#top-rightblock{
+    height: 10px;
+    width: 10px;
+    position: relative;
+    left: 80px;
+    top: -200px;
+    z-index: 1;
+    background-color: black;
+}
+#bottom-rightbar{
+    height: 10px;
+    width: 90px;
+    position: relative;
+    left: 20px;
+    top: -160px;
+    z-index: 0;
+    background-color: black;
+}
+#bottom-leftbar{
+    height: 10px;
+    width: 30px;
+    position: relative;
+    left: 0px;
+    top: -150px;
+    z-index: 0;
+    background-color: black;
+}
+#bottom-rightbar2{
+    height: 30px;
+    width: 10px;
+    position: relative;
+    left: 90px;
+    top: -220px;
+    z-index: 0;
+    background-color: black;
+}
+#bottom-leftbar2{
+    height: 30px;
+    width: 10px;
+    position: relative;
+    left: 10px;
+    top: -190px;
+    z-index: 0;
+    background-color: black;
+}
+
+#bottom-leftfoot{
+
+    height: 10px;
+    width: 20px;
+    position: relative;
+    left: 30px;
+    top: -230px;
+    z-index: 1;
+    background-color: #65FF00;
+    animation-name: movementleftfoot;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+}
+#bottom-rightfoot{
+    height: 10px;
+    width: 20px;
+    position: relative;
+    left: 60px;
+    top: -240px;
+    z-index: 1;
+    background-color: #65FF00;
+    animation-name: movementrightfoot;
+    animation-duration: 1s;
+    animation-direction:normal;
+    animation-iteration-count: infinite;
+}
+#bottom-rightfoot2{
+    height: 10px;
+    width: 10px;
+    position: relative;
+    left: 90px;
+    top: -260px;
+    z-index: 1;
+    background-color: #65FF00;
+    animation-name: movementrightfoot2;
+    animation-duration: 1s;
+    animation-direction:normal;
+    animation-iteration-count: infinite;
+}
+#bottom-leftfoot2{
+    height: 10px;
+    width: 10px;
+    position: relative;
+    left: 10px;
+    top: -250px;
+    z-index: 1;
+    background-color: #65FF00;
+    animation-name: movementleftfoot2;
+    animation-duration: 1s;
+    animation-direction:normal;
+    animation-iteration-count: infinite;
+}
+#bottom-leftrib{
+    height: 10px;
+    width: 10px;
+    position: relative;
+    left: 10px;
+    top: -290px;
+    z-index: 1;
+    background-color: #65FF00;
+    animation-name: movementleftfoot2;
+    animation-duration: 1s;
+    animation-direction:normal;
+    animation-iteration-count: infinite;
+}
+#bottom-rightrib{
+    height: 10px;
+    width: 10px;
+    position: relative;
+    left: 90px;
+    top: -300px;
+    z-index: 1;
+    background-color: #65FF00;
+    animation-name: movementleftfoot2;
+    animation-duration: 1s;
+    animation-direction:normal;
+    animation-iteration-count: infinite;
+}
+#leftarmcoverblack{
+    height: 20px;
+    width: 10px;
+    position: relative;
+    left: 0px;
+    top: -310px;
+    background-color: black;
+    z-index: 1;
+    animation-name: movementrightfoot;
+    animation-duration: 1s;
+    animation-direction:normal;
+    animation-iteration-count: infinite;
+}
+#rightarmcoverblack{
+    height: 20px;
+    width: 10px;
+    position: relative;
+    left: 100px;
+    top: -330px;
+    background-color: black;
+    z-index: 1;
+    animation-name: movementrightfoot;
+    animation-duration: 1s;
+    animation-direction:normal;
+    animation-iteration-count: infinite;
+}
+#rightarmraised{
+    height: 20px;
+    width: 10px;
+    position: relative;
+    left: 100px;
+    top: -400px;
+    background-color: black;
+    z-index: 1;
+    animation-name: movementrightfoot2;
+    animation-duration: 1s;
+    animation-direction:normal;
+    animation-iteration-count: infinite;
+}
+#leftarmraised{
+    height: 20px;
+    width: 10px;
+    position: relative;
+    left: 0px;
+    top: -380px;
+    background-color: black;
+    z-index: 1;
+    animation-name: movementrightfoot2;
+    animation-duration: 1s;
+    animation-direction:normal;
+    animation-iteration-count: infinite;
+}
+
+
+@keyframes movementrightfoot2{
+    0%, 50% {background-color:#65FF00;}
+    100% {background-color: black;}
+    10% {background-color: #65FF00;}
+}
+@keyframes movementleftfoot2{
+    0%, 50% {background-color:#65FF00;}
+    100% {background-color: black;}
+    10% {background-color: #65FF00;}
+}
+@keyframes movementleftfoot{
+    0%, 50% {background-color:black}
+    100% {background-color: #65FF00;}
+    10% {background-color: black;}
+}
+@keyframes movementrightfoot{
+    0%, 50% {background-color:black}
+    100% {background-color: #65FF00;}
+    10% {background-color: black;}
+}
+@keyframes bounce {
+    0%, 20%, 50%, 80%, 100% { transform: translateY(0); }
+    60% { transform: translateY(-25px); }
+    80% { transform: translateY(-15px); }
+}
+@keyframes movement{
+    0% { transform: translateX(0);}
+    40% {transform: translateX(20%);}
+    80% {transform: translateX(-10%);}
+    
+
+}
+
+@-moz-keyframes spin {
+    from { -moz-transform: rotate(0deg); }
+    to { -moz-transform: rotate(360deg); }
+}
+@-webkit-keyframes spin {
+    from { -webkit-transform: rotate(0deg); }
+    to { -webkit-transform: rotate(360deg); }
+}
+@keyframes spin {
+    from {transform:rotate(0deg);}
+    to {transform:rotate(360deg);}
+    
+}
+@keyframes aniStar{
+  from	{transform: translateY(0px);}
+  to	{	transform: translateY(-2000px);}
+}
